@@ -14,10 +14,10 @@
 JarvisPoem::JarvisPoem() : rDevice(), rEngine(rDevice()), dist10(0, 10){
 	
 	//Open file
-	const std::string filename = "voc_input.txt";
+	const std::string filename = "voc_input_hungarian_version.txt";
 	std::ifstream inputFile(filename);
 	if (!inputFile.is_open()) {
-		throw std::runtime_error("Error: voc_input.txt file cannot be opened");
+		throw std::runtime_error("Error: voc_input_hungarian_version file cannot be opened");
 	}
 
 	//Read data
